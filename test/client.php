@@ -15,7 +15,7 @@ $client = new Client(
     $config['password'],
     $config['vhost']
 );
-$response = $client->callMethod('foo', array(
+$response = $client->callServiceMethod('foo', array(
     'ABCDEFG',
 ));
 echo "Response: " . $response . "\n";
