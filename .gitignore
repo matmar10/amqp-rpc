@@ -1,0 +1,7 @@
+
+# installed vendor
+vendor/
+composer.lock
+
+.idea
+
